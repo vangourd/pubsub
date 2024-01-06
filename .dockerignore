@@ -1,0 +1,29 @@
+# Ignore version control directories
+.git/
+.gitignore
+
+# Ignore build output directories
+target/
+**/target/
+
+# Ignore Rust log file
+**/Cargo.lock
+
+# Ignore backup files created by text editors
+*~
+**/*~
+
+# Ignore other unnecessary files
+.DS_Store
+**/.DS_Store
+**/*.swp
+**/*.swo
+
+# Ignore IDE-specific files and directories
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+
+# Optionally ignore the tests directory, if tests aren't needed for the build
+tests/

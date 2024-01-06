@@ -22,4 +22,4 @@ COPY src ./src
 RUN cargo build --release
 
 # Command to run the application
-CMD ["./target/release/zmq-rust-app"]
+CMD ["./target/release/pubsub"]
